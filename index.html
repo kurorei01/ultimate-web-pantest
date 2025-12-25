@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>XSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<audio id="bgSound" autoplay loop>
+    <source src="c:\Users\Fathir\Downloads\Avenged Sevenfold - A Little Piece Of Heaven.mp3" type="audio/mp3">
+</audio>
+
+<div class="container">
+    <h1 class="glitch">NICE ATTACK</h1>
+
+    <img src="https://tse2.mm.bing.net/th/id/OIP.9lkXhdLxkgc0nQ29nH-vQAHaFP?pid=Api&P=0&h=220" class="avatar">
+
+    <p class="subtitle">
+        "Keamanan bukan tentang merusak, tapi karena lu bego sok paling hebat"
+    </p>
+
+    <input type="text" id="input" placeholder="Masukkan teks di sini">
+    <button onclick="renderInput()">Kirim</button>
+
+    <!-- AREA RENTAN -->
+    <div id="output" class="output"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
