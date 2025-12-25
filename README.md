@@ -150,7 +150,7 @@ Time: 2025-01-15 14:23:45
 ### Step 1: Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/ultimate-web-pentest.git
+git clone https://github.com/kurorei01/ultimate-web-pantest.git
 cd ultimate-web-pentest
 ```
 
