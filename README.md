@@ -187,7 +187,7 @@ echo "123456" >> wordlists/passwords.txt
 ### Interactive Mode (Recommended)
 
 ```bash
-python main.py
+python langsungbae.py
 ```
 
 Pilih menu yang Anda inginkan:
@@ -200,13 +200,13 @@ Pilih menu yang Anda inginkan:
 
 ```bash
 # Full scan
-python main.py --cli
+python langsungbae.py --cli
 
 # Custom target
-python main.py --cli -u http://target.com
+python langsungbae.py --cli -u http://target.com
 
 # Show configuration
-python main.py --config
+python langsungbae.py --config
 ```
 
 ### First Test (Safe Target)
@@ -216,7 +216,7 @@ python main.py --config
 TARGET_URL=http://testphp.vulnweb.com
 
 # Run interactive mode
-python main.py
+python langsungbae.py
 
 # Pilih [1] untuk automated scan
 ```
